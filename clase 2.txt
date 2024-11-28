@@ -1,0 +1,40 @@
+para clonar
+1 git clone <URL_DE_TU_REPOSITORIO>
+
+abrir terminal
+2 cd mi-ejercicio-git
+
+para crear una rama
+3 git checkout -b feature-inicial
+
+ creas tu index.html 
+4 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Ejercicio Git</title>
+</head>
+<body>
+    <h1>Hola, GitHub</h1>
+    <p>Este es mi primer archivo gestionado con Git y GitHub.</p>
+</body>
+</html>
+
+
+Añade el archivo al área de staging:
+5 git add index.html 
+
+Realiza un commit con un mensaje descriptivo:
+6 git commit -m "Añadido index.html con contenido inicial"
+
+
+Cambia a la rama principal:
+7 git checkout main
+
+Fusiona la rama feature-inicial en main:
+8 git merge feature-inicial
+
+Sube los cambios al repositorio remoto:
+9 git push origin main
+

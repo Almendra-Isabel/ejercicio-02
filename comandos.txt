@@ -1,0 +1,23 @@
+git init
+Inicializa un nuevo repositorio.
+
+git clone [URL]
+Clona un repositorio remoto.
+
+git status
+Muestra el estado de los archivos en el repositorio.
+
+git add [archivo]
+Añade cambios al área de preparación (staging).
+
+git commit -m "msg"
+Guarda los cambios con un mensaje.
+
+git log
+Muestra el historial de commits.
+
+git push
+Envía los cambios al repositorio remoto.
+
+git pull
+Trae y fusiona cambios del repositorio remoto.

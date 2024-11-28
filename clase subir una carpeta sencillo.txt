@@ -1,0 +1,48 @@
+
+Alumno@PC08 MINGW64 /d/xampp/htdocs/api_auto
+$ echo "# api-auto" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Almendra-Isabel/api-auto.git
+git push -u origin main
+Initialized empty Git repository in D:/xampp/htdocs/api_auto/.git/
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the nex
+t time Git touches it
+[master (root-commit) 60a868d] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 224 bytes | 224.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Almendra-Isabel/api-auto.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+Alumno@PC08 MINGW64 /d/xampp/htdocs/api_auto (main)
+$ git add .
+
+Alumno@PC08 MINGW64 /d/xampp/htdocs/api_auto (main)
+$ git commit -m "Almendra"
+[main 7b685fc] Almendra
+ 6 files changed, 122 insertions(+)
+ create mode 100644 api/actualizar.php
+ create mode 100644 api/crear.php
+ create mode 100644 api/eliminar.php
+ create mode 100644 api/leer.php
+ create mode 100644 auto.php
+ create mode 100644 conexion.php
+
+Alumno@PC08 MINGW64 /d/xampp/htdocs/api_auto (main)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (9/9), 1.73 KiB | 1.73 MiB/s, done.
+Total 9 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/Almendra-Isabel/api-auto.git
+   60a868d..7b685fc  main -> main
